@@ -48,7 +48,7 @@ const AadharForm = () => {
     formDataObj.append('image', formData.image);
 
     try {
-      const response = await axios.post('http://localhost:3000/submit-form', formDataObj, {
+      const response = await axios.post('https://adharcard-generator.onrender.com/submit-form', formDataObj, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
