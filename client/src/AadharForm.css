@@ -1,0 +1,104 @@
+
+
+.aadhar-form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aadhar-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.aadhar-card {
+  background-image: url(./assets/IMG_20241002_104306.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  padding: 35px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: relative;
+}
+
+.aadhar-card-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 227px;
+}
+
+.aadhar-card-left {
+  width: 18%;
+}
+
+.aadhar-card-right {
+  /* text-align: center; */
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.aadhar-img {
+  width: 100px;
+  height: 122px;
+  
+  margin-bottom: 10px;
+}
+h3{
+  text-align: center;
+  /* width: 30%;
+  margin: auto; */
+  font-size: 29px;
+}
+
+.download-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
